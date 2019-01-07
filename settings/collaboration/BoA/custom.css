@@ -1,0 +1,153 @@
+/**********************************************************************************************/
+/* Customizations to the Connections 6.0 default style (the Hikari theme)
+/**********************************************************************************************/
+
+/*** Header - Start ***/
+
+/* Header right logo */
+.lotusui30 .lotusBanner .lotusIBMLogo {
+    background-image: url("/com.ibm.oneui3.styles/imageLibrary/Branding/Logos/bofa_logo.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 165px;
+    cursor: pointer;
+}
+/* Header left "logo" text */
+.lotusui30 div.lotusBanner .lotusLogo .lotusAltText {
+    font-size: 1.8em;
+    color: #C41230; /* Red */
+}
+
+/* Header background */
+.lotusui30 div.lotusBanner .lotusRightCorner {
+    background: #fbfbfb; /* Off white */
+}
+.lotusui30 .lotusBanner ul.lotusLinks li a, .lotusui30 .lotusBanner ul.lotusLinks li a:active, .lotusui30 .lotusBanner ul.lotusLinks li a:focus, .lotusui30 .lotusBanner ul.lotusLinks li a:hover, .lotusui30 .lotusBanner ul.lotusLinks li.lotusHover a {
+    background: #fbfbfb; /* Off white */
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist.lotusLinks li.lotusSelected:after {
+    border-bottom: .375rem solid #4178be; /* Blue */
+    margin-bottom: -1.5px;
+}
+
+/* Header navigation bar */
+.lotusui30 .lotusBanner ul.lotusLinks li a, .lotusui30 .lotusBanner ul.lotusLinks li a:active, .lotusui30 .lotusBanner ul.lotusLinks li a:focus, .lotusui30 .lotusBanner ul.lotusLinks li a:hover, .lotusui30 .lotusBanner ul.lotusLinks li.lotusHover a {
+    color: #524940 /* Dark brown */
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, .lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected a {
+    color: #524940 /* Dark brown */
+}
+.lotusui div.lotusBanner ul.lotusUtility li a, .scloud3 div.lotusBanner ul.lotusUtility li a {
+    color: #524940 /* Dark brown */
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a {
+    padding: 14px 3px 9px;
+    font-size: 1.4em;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+    font-size: 1.4em;
+}
+
+/* Drop-down arrows in the header navigation bar */
+.lotusui30 .lotusBanner .lotusDropDownSprite {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: 2px -258px;
+}
+.lotusui30 .lotusBanner img.lotusDropDownSprite {
+    opacity: 1.0;
+}
+.lotusui30 .lotusBanner .lotusUtility img.lotusArrow {
+    opacity: 1.0;
+}
+
+/* Rightmost buttons in the header navigation bar */
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, .lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+    color: #524940; /* Dark brown */
+    background: #fbfbfb; /* Off white */
+}
+
+/* Title bar extension */
+.lotusui30 .lotusTitleBarExt .lotusInlinelist li.lotusFirst {
+    margin: -15px 0 0;
+}
+.lotusui30 .lotusTitleBarExt .lotusInlinelist li a, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:hover, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:focus, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:active {
+    font-size: 1.1em;
+}
+
+/*** Header - End ***/
+
+/*** Left navigation bar - Start ***/
+
+.lotusui30_layout .lotusColLeft {
+    background: #fbfbfb; /* Off white */
+}
+
+.lotusui30_layout .lotusColLeft:after {
+    border-left: 1000px solid #fbfbfb; /* Off white */
+    background: #fbfbfb; /* Off white */
+    border-right: 240px solid #fbfbfb; /* Off white */
+}
+
+/*** Left navigation bar - End ***/
+
+
+/*** Left navigation bar menu - Start ***/
+
+.lotusui30 .lotusMenu .lotusHeaderSelected, .lotusui30 .lotusMenu li.lotusSelected a, .lotusui30 .lotusMenu li.lotusSelected a:active, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:visited {
+    color: #C41230; /* Red */
+}
+.lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited {
+    color: #0052C2; /* Blue */
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected, .lotusui30 .lotusMenu li.lotusSelected a, .lotusui30 .lotusMenu li.lotusSelected a:active, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:visited {
+    background: #F0EDE7; /* Beige */
+}
+.lotusui30 .lotusColLeft .lotusSection h2 .lotusArrow, .lotusui30 .lotusColLeft .lotusSection2 .lotusHeading .lotusArrow, .lotusui30 .lotusColLeft .lotusWidget h2 .lotusArrow, .lotusui30 .lotusColLeft .lotusWidget2 h2 .lotusArrow, .lotusui30 .lotusColLeft h3 .lotusArrow {
+    margin-left: -23px;
+}
+
+/*** Left navigation bar menu - End ***/
+
+
+/*** Widgets - Start ***/
+
+/* Widget titles - Homepage */
+.lotusui30 .lotusSection2 .lotusSectionHeader {
+    background-color: #F0EDE7; /* Beige */
+    color: #C41230; /* Red */
+}
+.lotusui30 .lotusSection2 .lotusHeading, .lotusui30 .lotusSection2 .lotusHeading2 {
+    color: #C41230; /* Red */
+    padding-left: 7px;
+}
+
+/* Widget titles - Homepage My Page */
+.lotusui30 .lotusContent .lotusWidget, .lotusui30 .lotusPortlet {
+    padding: 10px;
+    background-color: #fff;
+    border: 0px solid #dadada;
+}
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2 {
+    background-color: #F0EDE7; /* Beige */
+    color: #C41230; /* Red */
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Widget titles - Communities */
+.lotusui30 .lotusWidget2 h2 {
+    background-color: #F0EDE7; /* Beige */
+    color: #C41230; /* Red */
+    padding-left: 7px;
+}
+.lotusui30 .lotusSection2 .lotusHeading, .lotusui30 .lotusSection2 .lotusHeading2 {
+    color: #C41230; /* Red */
+    padding-left: 7px;
+}
+
+/*** Widgets - End ***/
+
+/*** End ***/
