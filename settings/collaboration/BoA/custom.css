@@ -4,6 +4,10 @@
 
 /*** Header - Start ***/
 
+.ics-scbanner {
+	background-color: #ff0000;
+}
+
 /* Header right logo */
 .lotusui30 .lotusBanner .lotusIBMLogo {
     background-image: url("/files/customizer/settings/collaboration/BoA/images/bofa_logo.png?repoName=elouie-lab-services-repo");
